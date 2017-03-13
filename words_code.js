@@ -1,6 +1,6 @@
 function words(str){
   var newString = str.replace(/\t|\n| +/g, " ");
-	var splitString = newString.split(" ");
+  var splitString = newString.split(" ");
   var JSON = {};
 
   for (var i = 0; i < splitString.length; i++){
